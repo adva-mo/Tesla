@@ -8,8 +8,13 @@
     font-size: 62.5%;
 }
 body {
-    background-color: rgb(165, 129, 84);
+    background:url(/images/main\ background.jpeg) no-repeat center center/cover;
     color: aliceblue;
+}
+#page1 {
+    background:url(/images/main\ background.jpeg) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
 }
 .navbar{
     width: 100%;
@@ -30,20 +35,48 @@ a{
     text-decoration: none;
     color: aliceblue;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    z-index: 3;
 }
 a::after{
     content: '';
-    width: 100%;
-    height: 100%;
+    width: 130%;
+    height: 130%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
-    transition: 1s ;
+    /* background-color: blue; */
+    transform: translateX(-4px);
+    transition: 1s all ease-in;
 
 }
-a:after:hover{
+a:hover::after{
     background-color: gray;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    z-index: -1;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gap{
+    height:50vh;
+}
+.box-bottom{
+    display: flex;
+    padding: 2rem;
+    /* justify-content: space-evenly; */
+    justify-content: space-around; 
+    width: 90%;
+}
+h1{font-size: x-large;}
+h4{font-size: large;}
+.box-bottom>a{
+    border: 2px solid white;
+    width: 120px;
+    height: 25px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 5px;
 }
