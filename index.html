@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style/normalize.css" />
+    <link rel="stylesheet" href="/style/utulities.css">
     <link rel="stylesheet" href="/style/index.css" />
     <title>Model3 | Tesla</title>
   </head>
@@ -34,7 +35,7 @@
       </div>
 
       <div class="content">
-        <div class="main-box">
+        <div id="main-box">
           <h1>Model 3</h1>
           <div class="gap"></div>
           <div class="box-bottom">
@@ -49,43 +50,107 @@
             <div id="left-box">
               <h4>AWD</h4>
               <h6>Dual motor</h6>
-            </div>
-            <a href="#">Order Now</a>
+              </div>
+            <a href="#" class="btn">Order Now</a>
           </div>
+          </div>
+          <div class="arrow-bottom">
+            <img src="/images/arrow-down.png" alt="" />
+          </div>
+          
         </div>
-        <div class="arrow-bottom">
-          <img src="/images/arrow-down.png" alt="" />
         </div>
+        
       </div>
     </section>
 
     <!-- second page  -->
     <section id="page2">
-      <div class="main-box">
-        <div id="car-image"></div>
-
-        <div id="car-info">
+      <div class="main-box" class="flex">
+        
+        <div id="car-image" class="flex">
+            <img src="/images/page2-car.jpeg" alt="">
+        </div>
+        
+        <div id="car-info" class="flex">
           <div id="info-text">
-            Saftety
+            <br>
+            <h6>Saftety</h6>
             <h4>Built for Saftety</h4>
-            Safety is the most important part of every Tesla. We design our
-            vehicles to exceed safety standards.
+            Safety is the most important part of every <br> Tesla. We design our
+            vehicles to exceed <br> safety standards.
             <br><br>
             5-Star Rating <br>
-            Model 3 achieved NHTSA 5-star safety ratings in every category and subcategory.
-            <br>
-            <br> 
+            Model 3 achieved NHTSA 5-star safety <br> ratings in every category and subcategory. <br>            <br> 
             Top Safety Pick+ <br>
-            Model 3 received the IIHS Top Safety Pick+ award, with
-            top ratings in all crashworthiness and front crash prevention
+            Model 3 received the IIHS Top Safety Pick+ <br> award, with
+            top ratings in all crashworthiness <br> and front crash prevention
             categories.
           </div>
-          <div id="buttom"></div>
+          <div id="buttom" class="flex">
+
+                <div  class="btn"><a href="#">+</a></div>
+                <!-- <div class="flex"><a href="#">
+                    <div>+</div>
+                    <div>Learn More</div>
+                </a></div> -->
+                <div  class="btn"><a href="#">Order Now</a></div>
+        
+          </div>
         </div>
+
       </div>
     </section>
 
     <!-- third page  -->
-    <section id="page3"></section>
+    <section id="page3">
+        <header>
+
+            <div id='gap-page3'></div>
+           
+            <div id='miles'>
+                <div class="box-bottom">
+                    <div id="right-box">
+                      <h4>AWD</h4>
+                      <h6>Dual motor</h6>
+                    </div>
+                    <div id="center-box">
+                      <h4>AWD</h4>
+                      <h6>Dual motor</h6>
+                    </div>
+                    <div id="left-box">
+                      <h4>AWD</h4>
+                      <h6>Dual motor</h6>
+                    </div>
+                </div>
+            </div>
+        
+        </header>
+       
+        <footer class="flex">
+            
+            <div id="aside" class="flex">
+                <div id="top">
+                    <h6>Saftety</h6>
+                    <h4>Built for Saftety</h4>
+                </div>
+                <div id="buttom" class="flex">
+
+                    <a href="#">+</a>
+                    <!-- <div class="flex"><a href="#">
+                        <div>+</div>
+                        <div>Learn More</div>
+                    </a></div> -->
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+
+            <div id="info">
+                <p>Model 3 comes with the option of dual motor all-wheel drive, <br> 20” Überturbine Wheels and Performance Brakes for total control in all weather <br> conditions. A carbon fiber spoiler improves stability at high speeds, all allowing <br> Model 3 to accelerate from 0-60 mph* in as little as 3.1 seconds</p>
+            </div>
+
+        </footer>
+    </section>
+
   </body>
 </html>
