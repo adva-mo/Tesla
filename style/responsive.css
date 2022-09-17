@@ -1,0 +1,48 @@
+@media (max-width:500px){
+    #page1 #main-box{
+        width: 100vw;
+        height: 100%;
+        /* padding-top: 6rem; */
+        padding-bottom: 2rem;
+        justify-content: space-around;
+    }
+    #page1 .box-bottom{
+        margin-top: 20rem;
+    }
+    #page1 .box-bottom > a{
+        position: absolute;
+        transform: translateY(5rem);
+    }
+    #page1 .gap {
+        display: none;
+    }
+    
+}
+
+      /* page 2 */
+
+@media (max-width: 500px) {
+    #page2 > .main-box {
+        flex-direction: column;
+    }
+    #page2 #car-info {
+        justify-content: space-around;
+        padding: 0;
+        margin-left: 2rem;
+    }
+    #page2 #car-info{
+        margin-left: 2rem;
+    }
+}
+
+
+   /* page 3 */
+
+@media (max-width:500px) {
+    #page3 #miles h6{
+        display: none;
+    }
+    #page3 .box-bottom{
+        width: 100%;
+    }
+}
