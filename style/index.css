@@ -187,7 +187,8 @@ h4 {
 #learn{
   justify-content: flex-start;
 }
-#left {
+#page3 #left,
+#page2 #left {
   border: 1.5px solid black;
   border-radius: 50%;
   text-align: center;
