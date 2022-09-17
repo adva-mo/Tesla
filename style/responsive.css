@@ -1,3 +1,19 @@
+    /* page 1  */
+
+/*     removing top-navbar     */
+
+/* @media (max-width:900px){
+    #page1 .navbar #center,
+    #page1 .navbar #right{
+        display: none;
+    }
+} */
+/* @media (min-width:1000px) {
+    #page1 .menu-wrap{
+        display: none;
+    }
+} */
+
 @media (max-width:500px){
     #page1 #main-box{
         width: 100vw;
@@ -22,7 +38,7 @@
       /* page 2 */
 
 @media (max-width: 500px) {
-    #page2 > .main-box {
+    #page2 .main-box {
         flex-direction: column;
     }
     #page2 #car-info {
@@ -38,11 +54,17 @@
 
    /* page 3 */
 
-@media (max-width:500px) {
+@media (max-width:700px) {
     #page3 #miles h6{
         display: none;
     }
     #page3 .box-bottom{
         width: 100%;
+    }
+    #page3 {
+        margin-top: 5rem;
+    }
+    #page3 aside #buttom{
+        flex-direction: row;
     }
 }
