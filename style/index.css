@@ -19,12 +19,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 body {
   color: aliceblue;
   font-family: "tesla-light", "roboto", Arial, Helvetica, sans-serif;
   height: 300vh;
+  font-size: 0.6rem;
+
 }
 #page1 {
   background: url(/images/main\ background.jpeg) no-repeat center center/cover;
@@ -213,7 +214,7 @@ header {
 }
 
 #gap-page3 {
-  height: 65%;
+  height: 50%;
 }
 #page3 footer{
   color: black;
