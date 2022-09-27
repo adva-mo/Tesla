@@ -25,17 +25,17 @@ body {
   font-family: "tesla-light", "roboto", Arial, Helvetica, sans-serif;
   height: 300vh;
   font-size: 0.8rem;
-
 }
 #page1 {
   background: url(/images/main\ background.jpeg) no-repeat center center/cover;
   /* width: 100vw; */
   height: 100vh;
 }
-#page2, #page3{
+#page2,
+#page3 {
   height: 100vh;
 }
-#page1 #left img{
+#page1 #left img {
   width: 8rem;
   height: 1rem;
   color: white;
@@ -75,9 +75,8 @@ li {
 }
 #page1 .navbar a:hover::after {
   background-color: #7e7c7a;
-
 }
-#page1 .box-bottom a{
+#page1 .box-bottom a {
   color: aliceblue;
   text-decoration: none;
   position: relative;
@@ -96,12 +95,11 @@ li {
   /* z-index: -1; */
   /* padding-top: 0.5rem; */
 }
-#page1 .box-bottom a:hover::after{
+#page1 .box-bottom a:hover::after {
   background-color: aliceblue;
   content: "Order Now";
   color: black;
   padding-top: 0.5rem;
-
 }
 #main-box {
   display: flex;
@@ -109,15 +107,17 @@ li {
   flex-direction: column;
   padding-top: 2rem;
 }
-#page1 .box-bottom{
+#page1 .box-bottom {
   width: 100%;
   justify-content: center;
 }
-#right-box, #left-box, #center-box{
+#right-box,
+#left-box,
+#center-box {
   text-align: center;
   margin: 0 3rem;
 }
-#page1 #right-box{
+#page1 #right-box {
   margin-left: 1.5rem;
 }
 .gap {
@@ -125,6 +125,7 @@ li {
 }
 h1 {
   font-size: x-large;
+  margin-top: 8rem;
 }
 h4 {
   font-size: large;
@@ -139,27 +140,27 @@ h4 {
 }
 
 #page2 > .main-box {
-    display: flex;
-    height: 100%;
-    color: black;
-    width: 100%;
+  display: flex;
+  height: 100%;
+  color: black;
+  width: 100%;
 }
-    
+
 .arrow-bottom > img {
   width: 5px;
   height: 5px;
 }
-#car-image{
+#car-image {
   width: 65%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-#car-image > img{
-  width:470px;
+#car-image > img {
+  width: 470px;
   height: 300px;
 }
-#car-info{
+#car-info {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -170,7 +171,7 @@ h4 {
 }
 #page2 #buttom {
   width: 100%;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 2rem;
 }
 .btn {
@@ -181,7 +182,7 @@ h4 {
   font-weight: 400;
 }
 
-#learn{
+#learn {
   width: 50%;
   justify-content: flex-start;
 }
@@ -192,7 +193,8 @@ h4 {
   text-decoration: none;
   /* padding: auto; */
 }
-#page3 #left, #page2 #left {
+#page3 #left,
+#page2 #left {
   border: 1.5px solid black;
   border-radius: 50%;
   text-align: center;
@@ -216,10 +218,10 @@ header {
 #gap-page3 {
   height: 50%;
 }
-#page3 footer{
+#page3 footer {
   color: black;
 }
-#aside{
+#aside {
   width: 40%;
   /* padding-left: 4rem; */
   padding-top: 1rem;
@@ -232,25 +234,25 @@ header {
 footer {
   padding: 1rem 2rem;
 }
-footer #aside #buttom > a{
+footer #aside #buttom > a {
   width: 120px;
-  height: 25px; 
+  height: 25px;
   border: 1.5px solid black;
   border-radius: 3px;
   text-align: center;
   padding: 0.4rem 0;
   margin: 1rem 1rem;
 }
-footer #aside #right{
+footer #aside #right {
   border: none;
 }
-#page3 p{
+#page3 p {
   padding: 1.5rem 1rem;
 }
-#page3 footer #buttom >a{
-  width:50%;
+#page3 footer #buttom > a {
+  width: 50%;
 }
-#page3 #buttom #learn> #left {
+#page3 #buttom #learn > #left {
   width: 25%;
   border: 1px solid black;
 }
